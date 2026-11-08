@@ -1,1 +1,9 @@
-
+{
+  "version": "1.2.0",
+  "versionCode": 120,
+  "minVersionCode": 0,
+  "channel": "stable",
+  "notes": "fix: native lib load on TECNO/Transsion; default scale 115%; update/report URLs locked",
+  "url": "adoptium-1.2.0.adop",
+  "sha256": "9533cae3a8de0e8aa2392b51ca5e5a0fca0bb48dead2f4d8be828d19aa84cff9"
+}
