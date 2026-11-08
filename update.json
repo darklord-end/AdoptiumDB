@@ -1,9 +1,7 @@
 {
-  "version": "1.2.2",
-  "versionCode": 122,
+  "version": "1.2.3",
+  "versionCode": 123,
   "minVersionCode": 0,
   "channel": "stable",
-  "notes": "fix: native lib load on TECNO/Transsion; default scale 115%; update/report URLs locked",
-  "url": "https://raw.githubusercontent.com/darklord-end/AdoptiumDB/refs/heads/main/ota.adop",
-  "sha256": "dfggfdgfd"
+  "notes": "OTA 1.2.3: fixed Android 15/16 SIGABRT at engine IO init (native UnixFileSystem hook call neutralized in dex; Java OsStub redirect retained, so guest file redirection still works) - resolves the API 35/36 tombstones; fixed crash-report log self-amplification that produced the huge 'links:raw' tails (Diag snapshot no longer re-embeds its own I/Adoptium lines). Stability release."
 }
