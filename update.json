@@ -4,6 +4,6 @@
   "minVersionCode": 0,
   "channel": "stable",
   "notes": "fix: native lib load on TECNO/Transsion; default scale 115%; update/report URLs locked",
-  "url": "adoptium-1.2.0.adop",
+  "url": "https://raw.githubusercontent.com/darklord-end/AdoptiumDB/refs/heads/main/ota.adop",
   "sha256": "dfggfdgfd"
 }
